@@ -1,0 +1,7 @@
+.links {
+    @apply text-zinc-400 ml-1 text-[15px] font-bold p-4;
+}
+
+.links:hover {
+    @apply hover:text-zinc-200 hover:duration-200  hover:bg-green-500 hover:text-white rounded;
+}

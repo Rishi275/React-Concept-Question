@@ -1,0 +1,18 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="100"
+  height="100"
+  viewBox="0 0 24 24"
+>
+  <!-- Head -->
+  <circle cx="12" cy="6" r="5" fill="#FFD700" />
+
+  <!-- Body -->
+  <rect x="10" y="11" width="4" height="7" fill="#FFD700" />
+
+  <!-- Flute -->
+  <path
+    d="M 10 5 C 9 6 8 7 8 8 L 7 9 C 7 9 7 10 6 10 L 5 10 L 3 12 C 2 13 2 15 3 16 C 4 17 6 17 8 16 L 8 18 L 10 18 L 10 16 C 11 15 11 13 10 12 C 10 10 10 8 10 5"
+    fill="#FF4500"
+  />
+</svg>
