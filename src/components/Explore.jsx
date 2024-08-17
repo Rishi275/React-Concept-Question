@@ -11,7 +11,7 @@ const Explore = () => {
         <TopNav />
         <div className="services w-[100%] h-[60vh]  bg-gray-600 flex items-center justify-start flex-col ">
           <h4 className='text-white font-bold text-3xl text-center mt-[10vh]' >Other Services</h4>
-           <div className="wrap-service flex items-start justify-start gap-3 ml-2 mt-[20px] ">
+           <div className="wrap-service flex flex-wrap items-start justify-start gap-3 ml-2 mt-[20px] ">
            
             <Link to="/CardCreate"  className="text-blue-700 bg-black p-2">Card Create</Link>
             <Link to="/PopulateCard"  className="text-blue-700 bg-black p-2">News Populate</Link>

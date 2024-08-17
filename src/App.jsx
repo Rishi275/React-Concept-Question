@@ -11,11 +11,7 @@ import Who from './components/Who';
 import CardCreate from './components/CardCreate';
 import PopulateCard from './components/templates/PopulateCard';
 import Sidebar from './components/templates/Sidebar';
-import TopNav from './components/templates/TopNav';
 import PasswordGenerator from './NewComponents/PasswordGenerator';
-
-
-
 
 
 export default function App() {

@@ -49,9 +49,8 @@ console.log(allChars);
     };
 
     return (
-        <div className='w-full flex justify-start items-center flex-col'>
-            <TopNav />
-            <div className="container text-white flex flex-col gap-2 bg-gray-950 h-[50vh] w-[600px] border-[1px] py-[10px] px-[10px]" >
+        <div className='w-full flex justify-start items-center mt-[12vh] flex-col '>
+            <div className="container text-white flex flex-col gap-2 bg-gray-950 h-[auto] w-[600px] border-[1px] py-[10px] px-[10px]" >
                 <div className="generated w-full h-auto py-[10px] flex items-center justify-between border-b-[1px]">
                     <span className='font-semibold'>
                         {password}
