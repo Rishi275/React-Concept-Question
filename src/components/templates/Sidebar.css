@@ -1,5 +1,5 @@
 .links {
-    @apply text-zinc-400 ml-1 text-[15px] font-bold py-3;
+    @apply text-zinc-400 ml-1 text-[15px] font-bold py-3 whitespace-nowrap;
 }
 
 .links:hover {

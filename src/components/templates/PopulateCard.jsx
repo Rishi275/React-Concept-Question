@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import Sidebar from './Sidebar';
-import TopNav from './TopNav';
 
 
 export default function PopulateCard(props) {

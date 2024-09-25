@@ -12,6 +12,10 @@ import CardCreate from './components/CardCreate';
 import PopulateCard from './components/templates/PopulateCard';
 import Sidebar from './components/templates/Sidebar';
 import PasswordGenerator from './NewComponents/PasswordGenerator';
+import ParentCounter from './components/contextApi/ParentCounter';
+import ParentProduct from './components/ContextApiProduct/ParentProduct';
+import SingleProductPage from './components/ContextApiProduct/singleProductPage';
+import FormValidate from './NewComponents/formValidate';
 
 
 export default function App() {
@@ -28,7 +32,13 @@ export default function App() {
           <Route path="/Who" element={<Who />} />
           <Route path="/PopulateCard" element={<PopulateCard />} />
           <Route path="/PasswordGenerator" element={<PasswordGenerator />} />
+          <Route path="/Contextapi" element={<ParentCounter />} />
+          <Route path="/ParentProduct" element={<ParentProduct />} />
+          <Route path="/formValidate" element={<FormValidate />} />
 
+
+          {/* //nested components */}
+          <Route path="/SingleProductPage/:id" element={<SingleProductPage />} />          
           
 
 

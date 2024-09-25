@@ -9,12 +9,12 @@ export default function Sidebar() {
     }
     return (
         <>
-            <div className={`sidebar transition-all  border-r-2 relative border-zinc-50 ${open ? "w-[310px]" : "w-[50px]"} h-full p-3 flex flex-col`}>
+            <div className={`sidebar duration-[0.4s]  border-r-2 relative border-zinc-50 ${open ? "w-[310px]" : "w-[50px]"} h-full p-3 flex flex-col`}>
                 <span onClick={openSidebar} className='openClose absolute z-[99999] text-[25px] right-[-16px] top-[50px] transition-linear rounded-[50%]  flex items-center justify-center cursor-pointer'>{open?"👈":"👉"}</span>
                 <Link
                     to={"/"}
                     className="links "><div className=" logo heading whitespace-nowrap relative w-full h-auto flex items-center cursor-pointer">
-                        <img src="./public/krishna.svg" className='w-[30px]'></img>
+                        <img src="./public/krishna.svg" className={`w-[30px] duration-300 ${open && "rotate-[360deg]"}`}></img>
                         <span className='text-white text-[15px] font-semibold'>{open ? "Why Krishna Consciousness" : ""}</span>
 
                     </div></Link>

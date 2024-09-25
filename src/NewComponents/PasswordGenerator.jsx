@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TopNav from '../components/templates/TopNav';
 
 export default function PasswordGenerator() {
-document.title = "Password Generator"
+    document.title = "Password Generator"
     const [inputLength, setInputLength] = useState(12);
     const [password, setPassword] = useState('');
     const [uppercaseLetters, setUppercaseLetters] = useState(false);
@@ -33,7 +33,7 @@ document.title = "Password Generator"
             setPassword('');
             return;
         }
-console.log(allChars);
+        console.log(allChars);
         for (let i = 0; i < inputLength; i++) {
             const randomIndex = Math.floor(Math.random() * allChars.length);
             generatedPassword += allChars[randomIndex];
