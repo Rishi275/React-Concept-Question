@@ -19,7 +19,8 @@ const Explore = () => {
             <Link to="/Contextapi" className="text-blue-700 bg-black p-2">ContrxtAPI</Link>
             <Link to="/ParentProduct" className="text-blue-700 bg-black p-2">Product Cart</Link>
             <Link to="/formValidate" className="text-blue-700 bg-black p-2">Form Validate</Link>
-            <Link to="/" className="text-blue-700 bg-black p-2">Card Create</Link>
+            <Link to="/progressbar" className="text-blue-700 bg-black p-2">progressBar</Link>
+            <Link to="/traficlight" className="text-blue-700 bg-black p-2">Trafic Light</Link>
             <Link to="/" className="text-blue-700 bg-black p-2">Card Create</Link>
             <Link to="/" className="text-blue-700 bg-black p-2">Card Create</Link>
           </div>

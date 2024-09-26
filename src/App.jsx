@@ -16,6 +16,10 @@ import ParentCounter from './components/contextApi/ParentCounter';
 import ParentProduct from './components/ContextApiProduct/ParentProduct';
 import SingleProductPage from './components/ContextApiProduct/singleProductPage';
 import FormValidate from './NewComponents/formValidate';
+import ProgressBar from './NewComponents/progressbar';
+import TrafficLight from './NewComponents/trafficLight';
+
+
 
 
 export default function App() {
@@ -35,6 +39,9 @@ export default function App() {
           <Route path="/Contextapi" element={<ParentCounter />} />
           <Route path="/ParentProduct" element={<ParentProduct />} />
           <Route path="/formValidate" element={<FormValidate />} />
+          <Route path="/progressbar" element={<ProgressBar />} />
+          <Route path="/traficlight" element={<TrafficLight />} />
+
 
 
           {/* //nested components */}

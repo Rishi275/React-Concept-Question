@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import TopNav from '../components/templates/TopNav';
 
 export default function PasswordGenerator() {
     document.title = "Password Generator"
@@ -10,7 +9,6 @@ export default function PasswordGenerator() {
     const [numbers, setNumbers] = useState(false);
     const [symbols, setSymbols] = useState(false);
     const [copied, setCopied] = useState(false);  // New state to track if the password is copied
-
     const handleInputChange = (event) => {
         setInputLength(event.target.value);
     };
@@ -50,6 +48,7 @@ export default function PasswordGenerator() {
 
     return (
         <div className='w-full flex justify-start items-center mt-[12vh] flex-col '>
+
             <div className="container text-white flex flex-col gap-2 bg-gray-950 h-[auto] w-[600px] border-[1px] py-[10px] px-[10px]" >
                 <div className="generated w-full h-auto py-[10px] flex items-center justify-between border-b-[1px]">
                     <span className='font-semibold'>
